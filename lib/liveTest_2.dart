@@ -59,7 +59,7 @@ class HomeActivity extends StatelessWidget {
            Text(
              'Donate Blood',
              style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
-           ),
+           )
          ],
        ),
      ),
