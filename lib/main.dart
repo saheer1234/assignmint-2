@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
+import 'app.dart';
 
-import 'crudApp.dart';
-
-void main() {
-  runApp(const CRUDApp());
+void main(){
+  runApp(const TodoApp());
 }
