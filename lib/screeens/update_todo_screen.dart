@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class AddNewTodoScreen extends StatefulWidget {
-  const AddNewTodoScreen({super.key});
+class UpdateTodoScreen extends StatefulWidget {
+  const UpdateTodoScreen({super.key});
 
   @override
-  State<AddNewTodoScreen> createState() => _AddNewTodoScreenState();
+  State<UpdateTodoScreen> createState() => _AddNewTodoScreenState();
 }
 
-class _AddNewTodoScreenState extends State<AddNewTodoScreen> {
+class _AddNewTodoScreenState extends State<UpdateTodoScreen> {
 
   final TextEditingController _titleTEController = TextEditingController();
   final TextEditingController _descriptionTEController = TextEditingController();
@@ -17,7 +17,7 @@ class _AddNewTodoScreenState extends State<AddNewTodoScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Add new todo'),
+        title: Text('Update todo'),
       ),
       body: SingleChildScrollView(
         child: Padding(
